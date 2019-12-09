@@ -1,0 +1,61 @@
+    body {
+        background-color: rgb(248, 242, 220);
+    }
+    
+    nav {
+        display: flex;
+        align-content: flex-end;
+        justify-content: center;
+        margin-bottom: 40px;
+    }
+    
+    nav a {
+        color: #5e0059;
+        padding: 2px 40px 2px 0;
+        text-decoration: none;
+        font-size: 20px;
+        font-weight: bold;
+    }
+    
+    p {
+        padding: 20px 0;
+    }
+    
+    .centered-image {
+        display: flex;
+        align-content: center;
+        justify-content: center;
+    }
+    
+    .centered-image img {
+        border-radius: 10px;
+        width: 400px;
+    }
+    
+    .images {
+        display: flex;
+        align-content: space-between;
+        border: 2px solid pink;
+        justify-content: center;
+        margin-bottom: 20px;
+    }
+    
+    .images img {
+        width: 15vw;
+        padding: 30px;
+    }
+    
+    .images img:hover {
+        transform: scale(1.2);
+        opacity: .4;
+    }
+    
+    .textbox {
+        display: flex;
+        align-content: center;
+        justify-content: space-between;
+    }
+    
+    .textbox div {
+        padding: 3%;
+    }
