@@ -26,6 +26,6 @@ app.get("*", (req, res, next) => {
 app.listen(3003);
 // app.use(express.static("public"));
 
-
-//nodemon app.js
+//Access:
+//nodemon app.js in terminal
 //and go to: http://localhost:3003/
